@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		08B075AFD62A79E26F87E51A /* Pods_JAUITools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 594B4489ABEAD38E16142024 /* Pods_JAUITools.framework */; };
 		BA1545231FE2013F00DEDCFE /* JAUnitTools.m in Sources */ = {isa = PBXBuildFile; fileRef = BA1545221FE2013F00DEDCFE /* JAUnitTools.m */; };
+		BA7781C31FEC8EBF00E438DC /* CustomBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = BA7781C21FEC8EBF00E438DC /* CustomBtn.m */; };
 		BAB672891FD5503C00821787 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BAB672881FD5503C00821787 /* AppDelegate.m */; };
 		BAB6728C1FD5503C00821787 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAB6728B1FD5503C00821787 /* ViewController.m */; };
 		BAB6728F1FD5503C00821787 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAB6728D1FD5503C00821787 /* Main.storyboard */; };
@@ -46,6 +47,8 @@
 		713376144EE896631C33C329 /* Pods-JAUITools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JAUITools.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JAUITools/Pods-JAUITools.debug.xcconfig"; sourceTree = "<group>"; };
 		BA1545211FE2013F00DEDCFE /* JAUnitTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JAUnitTools.h; sourceTree = "<group>"; };
 		BA1545221FE2013F00DEDCFE /* JAUnitTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JAUnitTools.m; sourceTree = "<group>"; };
+		BA7781C11FEC8EBF00E438DC /* CustomBtn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomBtn.h; sourceTree = "<group>"; };
+		BA7781C21FEC8EBF00E438DC /* CustomBtn.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomBtn.m; sourceTree = "<group>"; };
 		BAB672841FD5503C00821787 /* JAUITools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JAUITools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAB672871FD5503C00821787 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BAB672881FD5503C00821787 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -153,6 +156,8 @@
 				BAB672881FD5503C00821787 /* AppDelegate.m */,
 				BAB6728A1FD5503C00821787 /* ViewController.h */,
 				BAB6728B1FD5503C00821787 /* ViewController.m */,
+				BA7781C11FEC8EBF00E438DC /* CustomBtn.h */,
+				BA7781C21FEC8EBF00E438DC /* CustomBtn.m */,
 				BA1545201FE200FA00DEDCFE /* JADataTools */,
 				BAB672B91FD5505100821787 /* Tools */,
 				BAB6728D1FD5503C00821787 /* Main.storyboard */,
@@ -394,6 +399,7 @@
 				BA1545231FE2013F00DEDCFE /* JAUnitTools.m in Sources */,
 				BAB672C51FD551C700821787 /* UIButton+Tools.m in Sources */,
 				BAB672BC1FD5507300821787 /* UIViewExtension.m in Sources */,
+				BA7781C31FEC8EBF00E438DC /* CustomBtn.m in Sources */,
 				BAB672891FD5503C00821787 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -557,6 +563,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 713376144EE896631C33C329 /* Pods-JAUITools.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 567J8UWLT4;
@@ -572,6 +579,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 47ABF30A992B31C334BBA4FB /* Pods-JAUITools.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 567J8UWLT4;

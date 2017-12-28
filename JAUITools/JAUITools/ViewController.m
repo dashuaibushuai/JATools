@@ -10,7 +10,7 @@
 #import "UILabel+Tools.h"
 #import "UIButton+Tools.h"
 #import "UIImageView+Tools.h"
-
+#import "CustomBtn.h"
 @interface ViewController ()
 
 @end
@@ -20,6 +20,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    CustomBtn *cust = [CustomBtn buttonWithType:UIButtonTypeCustom];
+    cust.frame = CGRectMake(50, 64, 100, 30);
+    [cust setImage:nil forState:UIControlStateNormal];
+    [cust setTitle:@"title" forState:UIControlStateNormal];
+    [self.view addSubview:cust];
     
     
     UILabel *label = [UILabel createLabel:CGRectMake(100, 200, 100, 40) alignment:NSTextAlignmentLeft text:@"100" textColor:[UIColor redColor] font:12 sizeFit:YES tap:^{
