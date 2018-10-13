@@ -1,0 +1,6 @@
+#add ignore file
+
+/JAUITools
+*.[oa]
+JAHighAndMemeroyManageProgramming/JAHighAndMemeroyManageProgramming/
+*.plist

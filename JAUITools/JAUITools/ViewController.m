@@ -7,10 +7,8 @@
 //
 
 #import "ViewController.h"
-#import "UILabel+Tools.h"
-#import "UIButton+Tools.h"
-#import "UIImageView+Tools.h"
 #import "CustomBtn.h"
+#import "JATool.h"
 @interface ViewController ()
 
 @end
