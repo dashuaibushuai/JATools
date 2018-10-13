@@ -1,6 +1,6 @@
 #add ignore file
 
 /JAUITools
-*.[oa]
-JAHighAndMemeroyManageProgramming/JAHighAndMemeroyManageProgramming/
+JAHighAndMemeroyManageProgramming/
 *.plist
+Podfile
