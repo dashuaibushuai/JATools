@@ -43,6 +43,7 @@
 
 /* Begin PBXFileReference section */
 		47ABF30A992B31C334BBA4FB /* Pods-JAUITools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JAUITools.release.xcconfig"; path = "Pods/Target Support Files/Pods-JAUITools/Pods-JAUITools.release.xcconfig"; sourceTree = "<group>"; };
+		526F2768216E516C004BEC09 /* JATool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JATool.h; sourceTree = "<group>"; };
 		594B4489ABEAD38E16142024 /* Pods_JAUITools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JAUITools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		713376144EE896631C33C329 /* Pods-JAUITools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JAUITools.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JAUITools/Pods-JAUITools.debug.xcconfig"; sourceTree = "<group>"; };
 		BA1545211FE2013F00DEDCFE /* JAUnitTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JAUnitTools.h; sourceTree = "<group>"; };
@@ -190,6 +191,7 @@
 		BAB672B91FD5505100821787 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				526F2768216E516C004BEC09 /* JATool.h */,
 				BAB672BB1FD5507300821787 /* UIViewExtension.h */,
 				BAB672BA1FD5507300821787 /* UIViewExtension.m */,
 				BAB672C01FD551A800821787 /* UILabel+Tools.h */,

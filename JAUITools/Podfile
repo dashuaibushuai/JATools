@@ -2,6 +2,12 @@
 source 'https://github.com/dashuai007/JAPriVateRes.git'
 platform:ios, '10.0'
 target 'JAUITools' do
+<<<<<<< HEAD
+=======
+
+
+use_frameworks!
+>>>>>>> 965bec8a49a1228e471c902c8f8bf468a04253c5
 
 pod 'JAPrivateRes', '~>0.1.0'
 
