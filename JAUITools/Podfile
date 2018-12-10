@@ -1,6 +1,8 @@
-target 'JAUITools' do
-use_frameworks!
 
-pod 'Charts', '~>3.0.4'
+source 'https://github.com/dashuai007/JAPriVateRes.git'
+platform:ios, '10.0'
+target 'JAUITools' do
+
+pod 'JAPrivateRes', '~>0.1.0'
 
 end 
